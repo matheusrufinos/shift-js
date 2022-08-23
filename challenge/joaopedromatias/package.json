@@ -1,0 +1,23 @@
+{
+  "name": "shift-js-challenge",
+  "version": "1.0.0",
+  "description": "creates a function that replicates the shift functionallity",
+  "main": "index.ts",
+  "scripts": {
+    "script": "node ./dist/index.js",
+    "build": "tsc",
+    "test": "jest --collect-coverage --env=jsdom"
+  },
+  "author": "joaopedromatias",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/jest": "^28.1.7",
+    "jest": "^28.1.3",
+    "jest-environment-jsdom": "^28.1.3"
+  },
+  "dependencies": {
+    "typescript": "^4.7.4"
+  }
+}

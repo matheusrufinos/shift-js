@@ -1,5 +1,5 @@
 # dependencies
-/node_modules
+node_modules
 
 # debug
 npm-debug.log*
@@ -13,3 +13,7 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+
+# tests coverage 
+
+coverage
